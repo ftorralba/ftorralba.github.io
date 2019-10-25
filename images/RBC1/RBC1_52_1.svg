@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This is a Stata 16.0 generated SVG file (http://www.stata.com) -->
+
+<svg version="1.1" width="600px" height="436px" viewBox="0 0 3960 2880" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>Stata Graph - Graph</desc>
+	<rect x="0" y="0" width="3960" height="2880" style="fill:#EAF2F3;stroke:none"/>
+	<rect x="0.00" y="0.00" width="3959.88" height="2880.00" style="fill:#EAF2F3"/>
+	<rect x="2.88" y="2.88" width="3954.12" height="2874.24" style="fill:none;stroke:#EAF2F3;stroke-width:5.76"/>
+	<rect x="290.81" y="100.86" width="3568.21" height="1992.81" style="fill:#FFFFFF"/>
+	<rect x="293.69" y="103.74" width="3562.45" height="1987.05" style="fill:none;stroke:#FFFFFF;stroke-width:5.76"/>
+	<line x1="290.81" y1="2030.31" x2="3859.02" y2="2030.31" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="290.81" y1="1563.75" x2="3859.02" y2="1563.75" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="290.81" y1="1097.20" x2="3859.02" y2="1097.20" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="290.81" y1="630.65" x2="3859.02" y2="630.65" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<path d=" M354.05 480.17 L526.18 1514.99 L698.20 1828.71 L870.33 1926.85 L1042.35 1960.39 L1214.48 1974.12 L1386.49 1981.67 L1558.63 1986.99 L1730.77 1991.45 L1902.78 1995.28 L2074.92 1998.75 L2246.93 2001.72 L2419.07 2004.57 L2591.08 2007.04 L2763.21 2009.27 L2935.23 2011.37 L3107.36 2013.23 L3279.38 2014.84 L3451.51 2016.45 L3623.52 2017.81 L3795.66 2018.92" stroke-linejoin="round" style="fill:none;stroke:#1A476F;stroke-width:8.64"/>
+	<path d=" M354.05 513.45 L526.18 1070.35 L698.20 1409.31 L870.33 1616.97 L1042.35 1745.55 L1214.48 1826.36 L1386.49 1877.96 L1558.63 1911.87 L1730.77 1934.89 L1902.78 1950.98 L2074.92 1962.86 L2246.93 1971.89 L2419.07 1979.07 L2591.08 1984.89 L2763.21 1989.84 L2935.23 1994.05 L3107.36 1997.76 L3279.38 2001.10 L3451.51 2003.95 L3623.52 2006.67 L3795.66 2008.90" stroke-linejoin="round" style="fill:none;stroke:#90353B;stroke-width:8.64"/>
+	<line x1="290.81" y1="2093.67" x2="290.81" y2="100.86" style="stroke:#000000;stroke-width:5.76"/>
+	<line x1="290.81" y1="2030.31" x2="250.84" y2="2030.31" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="200.73" y="2030.31" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 200.73,2030.31)" text-anchor="middle">0</text>
+	<line x1="290.81" y1="1563.75" x2="250.84" y2="1563.75" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="200.73" y="1563.75" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 200.73,1563.75)" text-anchor="middle">1</text>
+	<line x1="290.81" y1="1097.20" x2="250.84" y2="1097.20" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="200.73" y="1097.20" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 200.73,1097.20)" text-anchor="middle">2</text>
+	<line x1="290.81" y1="630.65" x2="250.84" y2="630.65" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="200.73" y="630.65" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 200.73,630.65)" text-anchor="middle">3</text>
+	<line x1="290.81" y1="164.22" x2="250.84" y2="164.22" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="200.73" y="164.22" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 200.73,164.22)" text-anchor="middle">4</text>
+	<line x1="290.81" y1="2093.67" x2="3859.02" y2="2093.67" style="stroke:#000000;stroke-width:5.76"/>
+	<line x1="354.17" y1="2093.67" x2="354.17" y2="2133.64" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="354.17" y="2223.62" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">0</text>
+	<line x1="1214.48" y1="2093.67" x2="1214.48" y2="2133.64" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="1214.48" y="2223.62" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">5</text>
+	<line x1="2074.92" y1="2093.67" x2="2074.92" y2="2133.64" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="2074.92" y="2223.62" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">10</text>
+	<line x1="2935.35" y1="2093.67" x2="2935.35" y2="2133.64" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="2935.35" y="2223.62" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">15</text>
+	<line x1="3795.66" y1="2093.67" x2="3795.66" y2="2133.64" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="3795.66" y="2223.62" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">20</text>
+	<text x="2074.92" y="2333.64" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">step</text>
+	<rect x="1473.24" y="2418.27" width="1203.34" height="326.34" style="fill:#FFFFFF"/>
+	<rect x="1476.12" y="2421.15" width="1197.59" height="320.58" style="fill:none;stroke:#000000;stroke-width:5.76"/>
+	<line x1="1516.56" y1="2511.46" x2="1890.90" y2="2511.46" style="stroke:#1A476F;stroke-width:8.64"/>
+	<line x1="1516.56" y1="2651.43" x2="1890.90" y2="2651.43" style="stroke:#90353B;stroke-width:8.64"/>
+	<text x="1950.92" y="2546.49" style="font-family:'Helvetica';font-size:99.99px;fill:#000000">est: irf of z -&gt; y</text>
+	<text x="1950.92" y="2686.46" style="font-family:'Helvetica';font-size:99.99px;fill:#000000">alt: irf of z -&gt; y</text>
+</svg>
