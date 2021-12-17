@@ -1,0 +1,39 @@
+---
+layout: default
+title: Current projects
+---
+<div class="container">
+	<h1>Current projects</h1>	
+	<br />
+	<br />
+	<p>
+		<b><font color="red">Long-run equity risk premium</font></b>
+	<p>
+		Estimate the long-run equity risk premium (LERP), by projecting 10-year-forward returns on (a) the internal rate of 
+    return from cash flow discount models, i.e. CFDMs, and (b) yield ratios (P/E, dividend, CAPE, etc.), i.e. time-series
+    models (TSMs). For the U.S. I show that CFDMs are no more reliable than TSMs. This puts CFDMs at a clear disadvantage 
+    to TSMs, because CFDMs need a lot more inputs. A second takeaway is that model combination improves out-of-sample forecast 
+    accuracy. Given these findings, I estimate the LERP using time-series models and their combination for several countries 
+    and regions.
+	<p>
+	<br />
+		<b><font color="red">Inflation uncertainty from surveys</font></b>
+	<p>
+		Some surveys ask respondents to provide probabilities for ranges of economic outcomes, including inflation. These density
+    forecasts can be used to assess the respondent's (subjective) uncertainty, for example by fitting a parametric density function 
+    to the discrete support for outcomes, and then calculating a dispersion measure for that function. The uncertainty measure, 
+    however, is highly correlated across variables, e.g. growth and inflation, raising the question of how much of the estimated 
+    inflation uncertainty is really about inflation, and how much is common uncertainty.
+		<p>
+	<br />
+		<b><font color="red">International term premia and risk-neutral rates</font></b>
+	<p>
+	  <a style='font-size: 1.5em;' href="https://www.newyorkfed.org/research/data_indicators/term_premia.html">Adrian, Crump and Monch (2013)</a> 
+    devised a method to estimate the term premium that is both fast and only requires zero-coupon yields as inputs. Despite the 
+    relative ease with which one could estimate international term premia, to my knowledge there is no live repository of such estimates, 
+    which is the main output of this project. I also explore the extent to which the U.S. drives the international co-movement 
+    of term premia and risk-neutral rates.
+	<br />
+	<br /> 
+  
+</div><!-- /.container -->
