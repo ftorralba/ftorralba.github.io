@@ -31,4 +31,33 @@ var DISCLAIMER = "The material on this website does not represent the views of t
 
   var foot = document.getElementById("disclaimer");
   if (foot) foot.textContent = DISCLAIMER;
+
+  // On phones the sidebar is a drawer: a button opens it, and the backdrop,
+  // the Escape key, or choosing a page closes it.
+  if (nav) {
+    var toggle = document.createElement("button");
+    toggle.id = "nav-toggle";
+    toggle.type = "button";
+    toggle.setAttribute("aria-controls", "nav");
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.innerHTML = "&#9776; Menu";
+
+    var backdrop = document.createElement("div");
+    backdrop.id = "nav-backdrop";
+
+    var setOpen = function (open) {
+      document.body.classList.toggle("nav-open", open);
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    };
+    toggle.addEventListener("click", function () {
+      setOpen(!document.body.classList.contains("nav-open"));
+    });
+    backdrop.addEventListener("click", function () { setOpen(false); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") setOpen(false);
+    });
+
+    document.body.appendChild(toggle);
+    document.body.appendChild(backdrop);
+  }
 })();
