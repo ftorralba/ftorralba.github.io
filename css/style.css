@@ -92,16 +92,6 @@ h2 {
 
 .muted { color: var(--muted); }
 
-.btn {
-  display: inline-block;
-  padding: 0.45rem 0.9rem;
-  border: 1px solid var(--accent);
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-}
-.btn.disabled { border-color: var(--rule); color: var(--muted); cursor: default; }
-
 /* Resume entries: years on the left, description on the right */
 .entry { display: flex; gap: 1.25rem; margin: 0.35rem 0; }
 .entry .when { flex: 0 0 8rem; color: var(--muted); }
