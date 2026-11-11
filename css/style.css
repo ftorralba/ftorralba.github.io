@@ -119,25 +119,62 @@ ol.items { list-style: decimal; padding-left: 1.5rem; }
   text-align: center;
 }
 
-/* ---------- Phones: sidebar becomes a top bar ---------- */
+/* ---------- Phone menu (button and backdrop are hidden on wide screens) ---------- */
+#nav-toggle, #nav-backdrop { display: none; }
+
+/* ---------- Phones: the sidebar becomes a drawer that slides in from the left ---------- */
 @media (max-width: 760px) {
-  body { flex-direction: column; }
-
   #nav {
-    flex: none;
-    position: static;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    align-self: stretch;
+    z-index: 30;
+    width: min(var(--sidebar-w), 82vw);
     min-height: 0;
-    border-right: 0;
-    border-bottom: 1px solid var(--rule);
-    padding: 1rem;
+    overflow-y: auto;
+    transform: translateX(-100%);
+    visibility: hidden;
+    transition: transform 0.2s ease, visibility 0s linear 0.2s;
   }
-  #nav .site-name { margin-bottom: 0.5rem; }
-  #nav ul { display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; }
-  #nav li a { margin-left: 0; padding: 0.25rem 0.6rem; }
-  #nav li a[aria-current="page"] { box-shadow: none; padding-left: 0.6rem; background: var(--rule); }
+  body.nav-open #nav {
+    transform: none;
+    visibility: visible;
+    transition: transform 0.2s ease;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.25);
+  }
 
-  main { padding: 1.5rem 1rem 2rem; }
+  #nav-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    position: fixed;
+    top: 0.6rem;
+    left: 0.6rem;
+    z-index: 20;
+    padding: 0.45rem 0.8rem;
+    background: var(--bg);
+    color: var(--text);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+    font: inherit;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+
+  #nav-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 25;
+    background: rgba(0, 0, 0, 0.35);
+  }
+  body.nav-open #nav-backdrop { display: block; }
+
+  main { padding: 4rem 1rem 2rem; }
   .entry { flex-direction: column; gap: 0; }
+  .entry .when, .entry.sub .when { flex: 0 0 auto; }
   .entry.sub { margin-left: 1rem; }
   #disclaimer { padding: 0.5rem 1rem; }
 }
