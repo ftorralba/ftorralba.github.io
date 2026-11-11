@@ -153,6 +153,7 @@ ol.items { list-style: decimal; padding-left: 1.5rem; }
 
   main { padding: 1.5rem 1rem 2rem; }
   .entry { flex-direction: column; gap: 0; }
+  .entry .when, .entry.sub .when { flex: 0 0 auto; }
   .entry.sub { margin-left: 1rem; }
   #disclaimer { padding: 0.5rem 1rem; }
 }
